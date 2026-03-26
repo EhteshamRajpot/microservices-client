@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/Desktop/projects/client/pages/banana.js"],"sourcesContent":["export default function Banana() {\r\n  return <div>Banana Page</div>;\r\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBAAO,qKAAC;kBAAI;;;;;;AACd"}}]
+}

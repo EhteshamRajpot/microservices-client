@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/Desktop/projects/client/pages/_app.js"],"sourcesContent":["import 'bootstrap/dist/css/bootstrap.css';\r\n\r\nexport default ({ Component, pageProps }) => {\r\n  return <Component {...pageProps} />;\r\n}"],"names":[],"mappings":";;;;;;;uCAEe,CAAC,EAAE,SAAS,EAAE,SAAS,EAAE;IACtC,qBAAO,qKAAC;QAAW,GAAG,SAAS;;;;;;AACjC"}}]
+}

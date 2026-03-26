@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/hp/Desktop/projects/client/pages/index.js"],"sourcesContent":["i\r\nconst LandingPage = ({ currentUser }) => {\r\n  console.log(\"I am in the component!\", currentUser);\r\n  return <div>Landing Page</div>;\r\n};\r\n\r\nLandingPage.getInitialProps = async ({ req }) => {\r\n  console.log(\"getInitialProps req\", req);\r\n  if (typeof window === \"undefined\") {\r\n    console.log(\"I am on the server!\");\r\n    const { data } = await axios.get(\r\n      \"http://ingress-nginx.ingress-nginx.svc.cluster.local/api/users/currentuser\",\r\n      {\r\n        headers: req.headers,\r\n      }\r\n    );\r\n    return data;\r\n  } else {\r\n    console.log(\"I am on the client!\");\r\n    const response = await axios.get(\"/api/users/currentuser\");\r\n    return response.data;\r\n  }\r\n  return {};\r\n};\r\n\r\nexport default LandingPage;\r\n"],"names":[],"mappings":";;;;;;AAAA;AACA,MAAM,cAAc,CAAC,EAAE,WAAW,EAAE;IAClC,QAAQ,GAAG,CAAC,0BAA0B;IACtC,qBAAO,qKAAC;kBAAI;;;;;;AACd;AAEA,YAAY,eAAe,GAAG,OAAO,EAAE,GAAG,EAAE;IAC1C,QAAQ,GAAG,CAAC,uBAAuB;IACnC,wCAAmC;QACjC,QAAQ,GAAG,CAAC;QACZ,MAAM,EAAE,IAAI,EAAE,GAAG,MAAM,MAAM,GAAG,CAC9B,8EACA;YACE,SAAS,IAAI,OAAO;QACtB;QAEF,OAAO;IACT;;;;AAMF;uCAEe"}}]
+}
