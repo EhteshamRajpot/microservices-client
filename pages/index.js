@@ -18,6 +18,6 @@ LandingPage.getInitialProps = async (context) => {
   } catch (err) {
     return { currentUser: null };
   }
-};
+}; 
 
 export default LandingPage;

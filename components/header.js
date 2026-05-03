@@ -15,7 +15,7 @@ export default function Header({ currentUser }) {
 
   return (
     <nav className="navbar navbar-light bg-light">
-      <a className="navbar-brand" href="/">Ticketing</a>
+      <a className="navbar-brand" href="/">GitTix</a>
       <div className="d-flex justify-content-end">
         <ul className="nav d-flex align-items-center">
           {links}
