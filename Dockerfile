@@ -1,5 +1,7 @@
 FROM node:alpine
 
+ENV RUNNING_IN_DOCKER=true
+
 WORKDIR /app
 RUN apk add --no-cache tar
 COPY package.json .

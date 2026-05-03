@@ -1,0 +1,8 @@
+__turbopack_load_page_chunks__("/tickets/new", [
+  "static/chunks/753eff910aea827d.js",
+  "static/chunks/41f22475799644e1.js",
+  "static/chunks/d4821922bf3e3893.js",
+  "static/chunks/13cc5cefa1f852fc.js",
+  "static/chunks/e36b5729c407568c.js",
+  "static/chunks/turbopack-d56e97b1908b3d86.js"
+])

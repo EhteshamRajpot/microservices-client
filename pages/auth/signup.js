@@ -6,7 +6,7 @@ export default function Signup() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const { doRequest, errors } = useRequest({
-    url: "https://ticketing.dev/api/users/signup",
+    url: "/api/users/signup",
     method: "post",
     body: { email, password },
     onSuccess: () => Router.push("/"),

@@ -1,0 +1,19 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/tickets/[ticketId]": [
+      "static/chunks/8c2c682ed34bf323.js",
+      "static/chunks/d4821922bf3e3893.js",
+      "static/chunks/41f22475799644e1.js",
+      "static/chunks/0839f86c7f7a5d0f.js",
+      "static/chunks/13cc5cefa1f852fc.js",
+      "static/chunks/e36b5729c407568c.js",
+      "static/chunks/turbopack-ae6b0ca0dfabc822.js"
+    ]
+  },
+  "ampFirstPages": []
+}
